@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		AB0854B62BF677D00088616D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854B52BF677D00088616D /* AppDelegate.swift */; };
 		AB0854B82BF677D00088616D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854B72BF677D00088616D /* SceneDelegate.swift */; };
-		AB0854BA2BF677D00088616D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854B92BF677D00088616D /* ViewController.swift */; };
 		AB0854BD2BF677D00088616D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB0854BC2BF677D00088616D /* Base */; };
 		AB0854BF2BF677D20088616D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0854BE2BF677D20088616D /* Assets.xcassets */; };
 		AB0854C22BF677D20088616D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AB0854C12BF677D20088616D /* Base */; };
+		AB0854CA2BF7F6790088616D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB0854C92BF7F6790088616D /* GoogleService-Info.plist */; };
+		AB0854CF2BFA44770088616D /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854CE2BFA44770088616D /* MenuTableViewController.swift */; };
+		AB0854D12BFCCDE40088616D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854D02BFCCDE40088616D /* RegisterViewController.swift */; };
+		AB0854D32BFD876B0088616D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854D22BFD876B0088616D /* LoginViewController.swift */; };
+		AB0854DA2C04C7B20088616D /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854D92C04C7B20088616D /* OrderTableViewController.swift */; };
+		AB0854DC2C0698FA0088616D /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854DB2C0698FA0088616D /* Orders.swift */; };
+		AB0854DE2C106E250088616D /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0854DD2C106E250088616D /* AdminViewController.swift */; };
+		AB2D80382C5F6C7D003CDA91 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB2D80362C5F6C7D003CDA91 /* DataModel.xcdatamodeld */; };
+		AB2D80412C857ED8003CDA91 /* Pon Di -01 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = AB2D80402C857ED8003CDA91 /* Pon Di -01 copy.png */; };
+		ABFE1B522C1EAE3800A9C54D /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFE1B512C1EAE3800A9C54D /* NameViewController.swift */; };
+		D3486164465F079098B135D6 /* Pods_PonDiRun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C089005E04E824F7121CF9 /* Pods_PonDiRun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB0854B22BF677D00088616D /* PonDiRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonDiRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0854B52BF677D00088616D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB0854B72BF677D00088616D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB0854B92BF677D00088616D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB0854BC2BF677D00088616D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB0854BE2BF677D20088616D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0854C12BF677D20088616D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB0854C32BF677D20088616D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0854C92BF7F6790088616D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB0854CE2BFA44770088616D /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AB0854D02BFCCDE40088616D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AB0854D22BFD876B0088616D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB0854D92C04C7B20088616D /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		AB0854DB2C0698FA0088616D /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		AB0854DD2C106E250088616D /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		AB2D80372C5F6C7D003CDA91 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		AB2D80402C857ED8003CDA91 /* Pon Di -01 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pon Di -01 copy.png"; path = "../../Pon Di -01 copy.png"; sourceTree = "<group>"; };
+		ABFE1B512C1EAE3800A9C54D /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		BBFE3404064EF544264B944A /* Pods-PonDiRun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonDiRun.release.xcconfig"; path = "Target Support Files/Pods-PonDiRun/Pods-PonDiRun.release.xcconfig"; sourceTree = "<group>"; };
+		C4C089005E04E824F7121CF9 /* Pods_PonDiRun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PonDiRun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA7442013DA2F5A5580E4C3 /* Pods-PonDiRun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonDiRun.debug.xcconfig"; path = "Target Support Files/Pods-PonDiRun/Pods-PonDiRun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3486164465F079098B135D6 /* Pods_PonDiRun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C4F11F593809F5DBF11BD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C089005E04E824F7121CF9 /* Pods_PonDiRun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A45EA02854444511C43F680D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7442013DA2F5A5580E4C3 /* Pods-PonDiRun.debug.xcconfig */,
+				BBFE3404064EF544264B944A /* Pods-PonDiRun.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB0854A92BF677D00088616D = {
 			isa = PBXGroup;
 			children = (
+				AB2D80402C857ED8003CDA91 /* Pon Di -01 copy.png */,
 				AB0854B42BF677D00088616D /* PonDiRun */,
 				AB0854B32BF677D00088616D /* Products */,
+				A45EA02854444511C43F680D /* Pods */,
+				9C4F11F593809F5DBF11BD65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,39 @@
 		AB0854B42BF677D00088616D /* PonDiRun */ = {
 			isa = PBXGroup;
 			children = (
+				AB0854D42BFD96920088616D /* model */,
+				AB0854CD2BF8DA3B0088616D /* views */,
 				AB0854B52BF677D00088616D /* AppDelegate.swift */,
 				AB0854B72BF677D00088616D /* SceneDelegate.swift */,
-				AB0854B92BF677D00088616D /* ViewController.swift */,
 				AB0854BB2BF677D00088616D /* Main.storyboard */,
-				AB0854BE2BF677D20088616D /* Assets.xcassets */,
 				AB0854C02BF677D20088616D /* LaunchScreen.storyboard */,
+				AB0854BE2BF677D20088616D /* Assets.xcassets */,
 				AB0854C32BF677D20088616D /* Info.plist */,
+				AB0854C92BF7F6790088616D /* GoogleService-Info.plist */,
 			);
 			path = PonDiRun;
+			sourceTree = "<group>";
+		};
+		AB0854CD2BF8DA3B0088616D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AB0854CE2BFA44770088616D /* MenuTableViewController.swift */,
+				AB0854D02BFCCDE40088616D /* RegisterViewController.swift */,
+				AB0854D22BFD876B0088616D /* LoginViewController.swift */,
+				AB0854D92C04C7B20088616D /* OrderTableViewController.swift */,
+				AB0854DD2C106E250088616D /* AdminViewController.swift */,
+				ABFE1B512C1EAE3800A9C54D /* NameViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AB0854D42BFD96920088616D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D80362C5F6C7D003CDA91 /* DataModel.xcdatamodeld */,
+				AB0854DB2C0698FA0088616D /* Orders.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB0854C62BF677D20088616D /* Build configuration list for PBXNativeTarget "PonDiRun" */;
 			buildPhases = (
+				5F363B99933A536B5E6F379A /* [CP] Check Pods Manifest.lock */,
 				AB0854AE2BF677D00088616D /* Sources */,
 				AB0854AF2BF677D00088616D /* Frameworks */,
 				AB0854B02BF677D00088616D /* Resources */,
+				FED96D3724D71BDC49B0CE58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +194,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2D80412C857ED8003CDA91 /* Pon Di -01 copy.png in Resources */,
 				AB0854BF2BF677D20088616D /* Assets.xcassets in Resources */,
+				AB0854CA2BF7F6790088616D /* GoogleService-Info.plist in Resources */,
 				AB0854C22BF677D20088616D /* Base in Resources */,
 				AB0854BD2BF677D00088616D /* Base in Resources */,
 			);
@@ -133,13 +204,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F363B99933A536B5E6F379A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PonDiRun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED96D3724D71BDC49B0CE58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PonDiRun/Pods-PonDiRun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PonDiRun/Pods-PonDiRun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PonDiRun/Pods-PonDiRun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB0854AE2BF677D00088616D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0854BA2BF677D00088616D /* ViewController.swift in Sources */,
+				AB0854D32BFD876B0088616D /* LoginViewController.swift in Sources */,
+				AB2D80382C5F6C7D003CDA91 /* DataModel.xcdatamodeld in Sources */,
+				AB0854D12BFCCDE40088616D /* RegisterViewController.swift in Sources */,
 				AB0854B62BF677D00088616D /* AppDelegate.swift in Sources */,
+				AB0854DA2C04C7B20088616D /* OrderTableViewController.swift in Sources */,
+				AB0854DE2C106E250088616D /* AdminViewController.swift in Sources */,
+				ABFE1B522C1EAE3800A9C54D /* NameViewController.swift in Sources */,
+				AB0854DC2C0698FA0088616D /* Orders.swift in Sources */,
+				AB0854CF2BFA44770088616D /* MenuTableViewController.swift in Sources */,
 				AB0854B82BF677D00088616D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +323,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +386,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +407,7 @@
 		};
 		AB0854C72BF677D20088616D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA7442013DA2F5A5580E4C3 /* Pods-PonDiRun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +436,7 @@
 		};
 		AB0854C82BF677D20088616D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFE3404064EF544264B944A /* Pods-PonDiRun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -363,6 +485,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB2D80362C5F6C7D003CDA91 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB2D80372C5F6C7D003CDA91 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = AB2D80372C5F6C7D003CDA91 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AB0854AA2BF677D00088616D /* Project object */;
 }
